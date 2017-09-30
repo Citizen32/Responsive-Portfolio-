@@ -251,11 +251,51 @@ input[type=submit] {
   border: 0 none;
 }
 
+input:hover {
+  background-color: #39837f;
+}
 
 
 /* -------@media queries-------*/
 @media screen and (max-width: 980px) {
- 
+ .sidebar{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container{
+    width: 100%;
+    }
+
+  #logo {
+    width: 100%;
+  }
+  .navbar{
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .main-section{
+    width: 100%;
+  }
+  .auth-image{
+    width: 100%;
+  }
+
+  .sidebar{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: -.75px;
+  }
+
 }
 
 
@@ -271,7 +311,7 @@ input[type=submit] {
   }
   .navbar{
     width: 100%;
-    height: 50%;
+    margin-right: 40px;
   }
   .main-section{
     width: 100%;
@@ -296,11 +336,11 @@ input[type=submit] {
 
 @media screen and (max-width: 640px){
 
-  .container{
+.container{
     width: 100%;
-    }
+  }
 
-  #logo {
+#logo {
   width: 100%;
   height: 60px;
   font-size: 1.5rem;
@@ -308,29 +348,38 @@ input[type=submit] {
   line-height: 60px;
   text-align: center;
 
-}
+  }
 
-  .navbar{
+.navbar{
     width: 100%;
     height: 50%;
     text-align: center;
+    margin-right: 18px;
     font-size: 1rem;
   }
-  .main-section{
+
+.main-section{
     width: 100%;
   }
-  .auth-image{
+  
+.auth-image{
     width: 100%;
   }
 
-  .sidebar{
+.sidebar{
     width: 100%;
     margin-bottom: 20px;
   }
 
-  p {
+p {
     font-size: 1rem;
     line-height: 1.5;
+  }
+
+
+input[type=submit] {
+  padding: 10px 16px;
+  font-size: 14px;
   }
 
   /* footer */
@@ -340,8 +389,19 @@ input[type=submit] {
     font-size: 10px;
     border-top: 5px solid #4aaaa5;
   }
+
+.work img{
+ padding: 30px;
+ width: 100%;
+  }
+
+.work h3{
+  width: 80%;
+  float: center;
 }
 
+
+}
 
 
 /* -------Print Styles------- */
